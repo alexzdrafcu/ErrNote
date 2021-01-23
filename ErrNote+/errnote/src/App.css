@@ -1,0 +1,29 @@
+ /* @import url("https://fonts.google.com/specimen/Poppins?query=popp"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+*:focus{
+  outline: none;
+}
+.myfiles,
+.shared,
+.trash,
+.newnote {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.myprofile{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.displayEverythingNone { 
+  display: none;
+}

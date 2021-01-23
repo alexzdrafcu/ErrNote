@@ -1,0 +1,60 @@
+.custom-calendar {
+    box-shadow: 0 0 0;
+
+  }
+
+  .examenDam:not(.-selectedStart):not(.-selectedBetween):not(.-selectedEnd):not(.-selected) {
+    border: 2px solid #006d77 !important;
+  }
+  
+  .examenTw:not(.-selectedStart):not(.-selectedBetween):not(.-selectedEnd):not(.-selected) {
+    border: 2px solid #876bf9 !important;
+  }
+  
+  .examenMm:not(.-selectedStart):not(.-selectedBetween):not(.-selectedEnd):not(.-selected) {
+    border: 2px solid #4a0d67 !important;
+  }
+  
+  .examenEco:not(.-selectedStart):not(.-selectedBetween):not(.-selectedEnd):not(.-selected) {
+    border: 2px solid#ff8811 !important;
+  }
+  .examenCse:not(.-selectedStart):not(.-selectedBetween):not(.-selectedEnd):not(.-selected) {
+    border: 2px solid #f71000 !important;
+  }
+
+  .calendar-component-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calendar-exam{
+    background-color: rgba(156, 136, 255, 0.7);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width:40%;
+  }
+
+  .calendar-exam-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;  
+    word-break: break-all;
+    width:100%;
+    margin-top:10px;
+    margin-bottom:10px;
+
+  }
+
+  .calendar-exam-this{
+    margin-bottom:5px;
+  }
+  .calendar-exam-title{
+    font-weight: bold;
+  }
